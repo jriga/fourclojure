@@ -12,7 +12,7 @@
   (testing "Split a sequence"
     (is (= (f49 3 [1 2 3 4 5 6])       [[1 2 3] [4 5 6]]))
     (is (= (f49 1 [:a :b :c :d])       [[:a] [:b :c :d]]))
-    (is (= (f49 2 [[1 2] [3 4] [5 6]]) [[[1 2] [3 4]] [[5 6]]]))))
+    (is (= (f49 2 [ [1 2] [3 4] [5 6] ]) [[[1 2] [3 4]] [[5 6]]]))))
 
 (deftest 51
   (testing "Advanced Destructing"
