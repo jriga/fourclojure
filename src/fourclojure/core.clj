@@ -45,3 +45,7 @@
 (defmacro test-ev
   [code]
   `(+ 1 ~(inc 1) ~(fa)))
+
+(defn f01
+  [input]
+  (println input))
