@@ -1,6 +1,6 @@
 # fourclojure
 
-A Clojure library designed to ... well, that part is up to you.
+Trainning based on https://www.4clojure.com/
 
 ## Usage
 
